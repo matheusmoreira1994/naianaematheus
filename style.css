@@ -1,0 +1,90 @@
+/* Importe a biblioteca Animate.css */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css");
+
+/* Adicione a classe "animated" e a classe da animação desejada (fadeIn nesse caso) ao elemento que você deseja animar */
+.animated {
+  animation-duration: 5s;
+  animation-fill-mode: both;
+}
+
+.fadeIn {
+  animation-name: fadeIn;
+}
+
+/* Altere o estilo da fonte dos elementos 'code' */
+code {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: 900;
+}
+
+
+body,
+h1,
+h2 {
+  font-family: "Raleway", sans-serif
+}
+
+body,
+html {
+  height: 100%
+}
+
+p {
+  line-height: 2
+}
+
+.bgimg,
+.bgimg2 {
+
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg {
+  background-image: url("rio.4.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: auto;
+  background-position-y: -220px;
+  background-size: cover;
+
+}
+
+.bgimg2 {
+  background-image: url("foto.jpg")
+}
+
+
+/* Aplica filter de cor em todas as imagens do slideshow */
+.mySlides {
+  filter: hue-rotate(360deg);
+  /* Rotação de 90 graus no espectro de cores */
+}
+
+/* Aplica filter de cor em imagens específicas do slideshow */
+.mySlides:nth-child(2) {
+  filter: hue-rotate(360deg);
+  /* Rotação de 180 graus no espectro de cores */
+}
+
+input[type="checkbox"] {
+  width: 30px;
+  height: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+a.w3-button:active {
+  background-color: black;
+  color: white;
+}
+
