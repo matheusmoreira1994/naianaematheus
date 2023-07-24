@@ -1,0 +1,38 @@
+body {
+   background-image: radial-gradient(circle at 34.83% 55.52%, #44bcff 0, #4494c7 25%, #3d6c90 50%, #30475c 75%, #20272e 100%);
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.image-container {
+  text-align: center;
+  width: 100%;
+}
+
+.links-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.links-container a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+#contact {
+  background-color: rgba(0,0,0,0.1);
+  font-weight: normal;
+  border-radius: 150px;
+  padding: 10px;
+  margin: auto;
+  max-width: 390px;
+}
